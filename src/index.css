@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  #certifications, #contact, #projects, #about, #resume, #skills{
+    background-color: white;
+    transition: background-color 0.5s ease; /* Transition for background color change */
+  }
+
+  #certifications:hover {
+    background-color: lightblue;
+  }
+
+  #resume:hover {
+    background-color: SkyBlue;
+  }
+
+  #contact:hover {
+    background-color:lightblue ;
+  }
+
+  #projects:hover {
+    background-color: LightCoral;
+  }
+
+  #about:hover {
+    background-color: DodgerBlue;
+  }
+
+  #skills:hover {
+    background-color: SandyBrown;
+  }
+
+  #slideshow:hover {
+    background-color: DarkSalmon
+  }
+
